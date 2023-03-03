@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.65992553.js";const l=JSON.parse('{"title":"首页","description":"","frontmatter":{"layout":"home","date":"2021-06-30T00:00:00.000Z","title":"首页","sidebar":false},"headers":[],"relativePath":"index.md"}'),o={name:"index.md"};function r(n,s,c,d,i,p){return a(),t("div")}const m=e(o,[["render",r]]);export{l as __pageData,m as default};
