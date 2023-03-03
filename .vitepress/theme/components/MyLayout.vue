@@ -1,3 +1,11 @@
+<!--
+ * @Author: nanfangzhe nanfangzhe@qq.com
+ * @Date: 2023-03-03 20:19:21
+ * @LastEditors: nanfangzhe nanfangzhe@qq.com
+ * @LastEditTime: 2023-03-04 02:05:51
+ * @FilePath: \tea-blog.github.io\.vitepress\theme\components\MyLayout.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <Layout>
     <template #doc-before>
@@ -5,7 +13,7 @@
       <Category />
     </template>
     <template #doc-after>
-      <Comments />
+      <!-- <Comments /> -->
     </template>
     <!-- Home slot-->
     <template #home-hero-before><HomeHero /> </template>
@@ -19,7 +27,7 @@ import DefaultTheme from "vitepress/theme";
 const { Layout } = DefaultTheme;
 import HomeHero from "./HomeHero.vue";
 import CopyWright from "./CopyWright.vue";
-import Comments from "./Comments.vue";
+// import Comments from "./Comments.vue";
 import Page from "./Page.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";

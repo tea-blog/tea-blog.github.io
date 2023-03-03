@@ -1,5 +1,14 @@
+<!--
+ * @Author: nanfangzhe nanfangzhe@qq.com
+ * @Date: 2023-03-03 20:19:21
+ * @LastEditors: nanfangzhe nanfangzhe@qq.com
+ * @LastEditTime: 2023-03-04 02:04:44
+ * @FilePath: \tea-blog.github.io\.vitepress\theme\components\CopyWright.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <template>
   <footer>
+    <Comments />
     Powered by
     <a href="https://github.com/clark-cui/" target="_blank" title="作者"
       >clark-cui</a
@@ -8,6 +17,7 @@
   </footer>
 </template>
 <script lang="ts" setup>
+import Comments from "./Comments.vue";
 const date = new Date().getFullYear();
 </script>
 <style scoped>
